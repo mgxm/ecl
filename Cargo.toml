@@ -1,0 +1,10 @@
+[package]
+name = "ecl"
+version = "0.1.0"
+description = "High-level Rust bindings to ECL"
+authors = ["Marcio Giaxa <i@mgxm.me>"]
+categories = ["external-ffi-bindings", "lisp"]
+edition = "2018"
+
+[dependencies]
+ecl-sys = "0.1.0"
